@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive Web Page</h1>
+
+    <!-- Form Section -->
+    <section id="contact-form-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label>Name:
+                <input type="text" id="name" name="name">
+            </label><br>
+            <label>Email:
+                <input type="text" id="email" name="email">
+            </label><br>
+            <label>Message:
+                <textarea id="message" name="message"></textarea>
+            </label><br>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+
+    <!-- Interactive Counter -->
+    <section>
+        <h2>Click Counter</h2>
+        <button id="counter-btn">Click me!</button>
+        <p>Button clicked <span id="click-count">0</span> times.</p>
+    </section>
+
+    <!-- Toggle Light/Dark Mode -->
+    <section>
+        <h2>Theme Toggle</h2>
+        <button id="theme-toggle">Toggle Dark Mode</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
